@@ -8,6 +8,7 @@ padding-left:33px;
 #grid #text{
 padding-left:25px;
 }
+
   a{
    color: gray;
    text-decoration: none;
@@ -22,9 +23,7 @@ padding-left:25px;
     margin: 0;
     padding: 20px;
   }
-  h2{
-    color: OliveDrab;
-  }
+
   ol{
     border-right:2px solid gray;
     width:100px;
@@ -34,3 +33,33 @@ padding-left:25px;
   table, td, th{
     border: 1px solid gray;
   }
+
+
+@media screen and (max-width: 800px) {
+
+  body {
+    background-color: white;
+  }
+
+h1{
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+  border-bottom: none;
+}
+ol{
+  border-right: none;
+  border-left: 5px solid gray;
+  text-align: center;
+  width:100px;
+  margin:0;
+  padding:20px;
+
+}
+#grid{
+  display: block;
+}
+}
